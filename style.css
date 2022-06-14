@@ -59,6 +59,36 @@ nav ul {
 
 }
 
+.normal {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto {
+    flex: 2 1 auto;
+}
+
+.texto > h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--black2);
+    margin-bottom: 3rem;
+}
+
+.texto > p {
+    width: 50%;
+    text-align: justify;
+    font-size: 2rem;
+
+}
+
+.containerimg > img {
+    border-radius: 15px;
+    border: 3px solid var(--cor2);
+}
+
 .parallax {
     background-image: url(pexels-dids-1276553.jpg);
     background-size: cover;
@@ -148,4 +178,9 @@ footer {
     justify-content: center;
     align-items: center;
     height: 5rem;
+}
+
+strong {
+    color: #E67E22;
+    font-weight: 500;
 }
