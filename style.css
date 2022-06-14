@@ -30,6 +30,18 @@ header {
     font-weight: 500;
 }
 
+header a{
+    text-decoration: none;
+    color: var(--black1);
+    
+}
+
+header a:hover{
+    color: var(--cor2);
+    transition: 0.5s;
+    
+}
+
 header > img {
     height: 5rem;
 }
@@ -131,6 +143,9 @@ nav ul {
 /* Footer */
 
 footer {
-    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     height: 5rem;
 }
